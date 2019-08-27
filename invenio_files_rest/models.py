@@ -492,7 +492,6 @@ class Bucket(db.Model, Timestamp):
         :param storage_class: Storage class of a bucket.
             Default: Default storage class.
         :param \**kwargs: Keyword arguments are forwarded to the class
-        :param \**kwargs: Keyword arguments are forwarded to the class
             constructor.
         :returns: Created bucket.
         """
